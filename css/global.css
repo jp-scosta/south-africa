@@ -20,6 +20,7 @@ header{
 nav{
     background-color: #155879;
     padding: 0.5rem;
+    
 }
 
 main {
@@ -40,6 +41,12 @@ h2 {
     font-size: 3.5rem;
     font-weight: 700;
     color: white;
+    transition: .3s
+
+}
+
+ h2:hover{
+    transform: scale(1.1);
 }
 
 h3{
@@ -51,7 +58,10 @@ a {
     font-family: 'Space Grotesk', sans-serif;
     color: white;
     text-decoration: none;
+    
 }
+
+
 
 p {
     font-family: 'Space Grotesk', sans-serif;
